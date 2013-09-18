@@ -14,7 +14,7 @@ var app = {
 
 var globalplaces={};
 
-var globalurl = "http://ec2-54-226-232-77.compute-1.amazonaws.com/iex/index.php/api/";
+var globalurl = "http://ec2-54-226-232-77.compute-1.amazonaws.com/iexperience.in/api/";
 
 console.log("Enter app router");
 $(document).on("ready", function () {
