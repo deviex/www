@@ -1,0 +1,33 @@
+app.models.experience = backbone.model.extend(){
+	url "\data"
+	
+	defaults:{
+		id : 0
+		ExperienceName : ""
+		Price : 
+		Rating : ""
+		Location : ""
+	},
+	
+	initialize : function(){
+	console.log("Model is created");
+	};
+};
+
+app.models.experienceCollection = Backbone.Collection.extend(){
+	model : app.models.experience,	
+	initialize : function(){
+		console.log("Collection is created");
+	}
+
+};	
+
+
+
+var exp1 = new app.models.experience({id : 1, ExperienceName : Paragliding , Price : 2500 , Rating : "****1/2" , Location : "Himachal"});
+var exp2 = new app.models.experience({id : 2, ExperienceName : "Trekking" , Price : 3000 , Rating : "****" , Location : "Mc Leodganj"});
+var exp3 = new app.models.experience({id : 3, ExperienceName : "Skydiving" , Price : 20000 , Rating : "*****" , Location : "Madhya Pradesh"});
+var exp4 = new app.models.experience({id : 4, ExperienceName : "Rafting" , Price : 1500 , Rating : "***1/2" , Location : "Rishikesh"});
+var exp5 = new app.models.experience({id : 5, ExperienceName : "David Harley" , Price : 13000 , Rating : "***" , Location : "Delhi"});
+var exp6 = new app.models.experience({id : 6, ExperienceName : "Ice Skating" , Price : 700 , Rating : "***1/2" , Location : "Gurgaon"});
+var collection = new app.models.experienceCollection(exp1,exp2,exp3,exp4,exp5,exp6);

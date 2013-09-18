@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="description" content="iExperience" />
+    <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+    <meta name="author" content="iExperience" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>iExperience</title>
+    <!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" type="text/css" href="../jQueryMobile/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../jQueryMobile/jquery.mobile-1.3.2.min.css" />
+    <!-- nativeDroid core CSS -->
+    <link rel="stylesheet" type="text/css" href="../jQueryMobile/css/jquerymobile.nativedroid.css" />
+    <link rel="stylesheet" type="text/css" href="../css/newstyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <!-- jQuery and jQuery Mobile -->
+    <script type="text/javascript" src="../jQueryMobile/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../jQueryMobile/jquery.mobile-1.3.2.min.js"></script>
+    <script type="text/javascript" src="../lib/underscore-min.js"></script>
+    <script type="text/javascript" src="../lib/backbone-min.js"></script>
+    <script type="text/javascript" src="../lib/backbone.googlemaps-min.js"></script>
+    <script type="text/javascript" src="../lib/iscroll.js"></script>
+    <script type="text/javascript" src="../cdv-plugin-fb-connect.js"></script>   
+	<script type="text/javascript" src="../facebook_js_sdk.js"></script>
+    
+    <script type="text/javascript" src="../js/app.js"></script>
+    <script type="text/javascript" src="../approuter.js"></script>
+    <script type="text/javascript" src="../js/utils/templates.js"></script>
+    <script type="text/javascript" src="../js/views/xp.js"></script>
+	<script type="text/javascript" src="../js/views/login.js"></script>
+    <script type="text/javascript" src="../js/views/city.js"></script>
+    <script type="text/javascript" src="../js/views/map.js"></script>
+</head>
+<body>
+    <!-- Home -->
+    <div data-role="page" id="citiesPage">
+        <div data-role="content">
+            <div style="text-align: center;">
+                <div data-role="fieldcontain">
+                    <h1>
+                        Where are you going?
+                    </h1>
+                </div>
+                <div style="text-align: center;">
+                    <div id="info_location">
+                        <label>
+                            Select Destination</label>
+                    </div>
+                    <ul data-role='listview' data-divider-theme="c" data-filter='true' data-filter-placeholder='Filter By Destination'
+                        data-filter-theme='c' data-inset="true">
+                        <li data-theme="c"><a class="go" id="punjab" data-transition="none">Punjab</a></li>
+                        <li data-theme="c"><a class="go" id="chandigarh" data-transition="none">Chandigarh</a></li>
+                        <li data-theme="c"><a class="go" id="mumbai" data-transition="none">Mumbai</a></li>
+                        <li data-theme="c"><a class="go" id="mp" data-transition="none">M.P.</a></li>
+                        <li data-theme="c"><a class="go" id="rajasthan" data-transition="none">Rajasthan</a></li>
+                        <li data-theme="c"><a class="go" id="leh" data-transition="none">Leh Ladakh</a></li>
+                        <li data-theme="c"><a class="go" id="ncr" data-transition="none">Delhi N.C.R.</a></li>
+                        <li data-theme="c"><a class="go" id="rishikesh" data-transition="none">Rishikesh</a></li>
+                        <li data-theme="c"><a class="go" id="himachal" data-transition="none">Himachal</a></li>
+                        <li data-theme="c"><a class="go" id="uttarakhand" data-transition="none">Uttarakhand</a></li>
+                        <li data-theme="c"><a class="go" id="gujarat" data-transition="none">Gujarat</a></li>
+                        <li data-theme="c"><a class="go" id="mysore" data-transition="none">Mysore</a></li>
+                        <li data-theme="c"><a class="go" id="sikkim" data-transition="none">Sikkim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
