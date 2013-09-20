@@ -5,12 +5,13 @@ app.views.cities = Backbone.View.extend({
     },
 	
 	events: {
-		"onclick .go": "go"
+		"click .select-button": "go"
     },
 
     go: function(event) {
-    		debugger;
-    		alert($('select').val());
+    		alert('here');
+    		console.log("Testing");
+    		//alert($('select').val());
     		var key = $('select').val();
     		alert(key);
 			app.router.navigate('gmap/'+ key +'',{trigger: true});
