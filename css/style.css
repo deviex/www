@@ -1,10 +1,9 @@
-/*
 @font-face {
 	font-family: Roboto;
-	/*src: ENTER SOURCE FOR ROBOTO FONT 
+	/*src: ENTER SOURCE FOR ROBOTO FONT */
 }
 
- font-stack for general usage on Android: use Roboto if available, else fallback to sans_serif (Droid Sans in case of Android) 
+/* font-stack for general usage on Android: use Roboto if available, else fallback to sans_serif (Droid Sans in case of Android) */
 
 body {
 	font-family: Roboto, Droid Sans;
@@ -30,86 +29,46 @@ p {
 .ui-icon ui-icon-delete{
 	display: block;
 }
-*/
-.info_main
-{
-    padding-left: 48px;
-    padding-top: 12px;
-    padding-bottom: 3px;
-    margin-right: 12px;
-    vertical-align: middle;
-    margin-left: 2.2em;
+.info_main{
+	padding-left: 48px;
+	padding-top: 12px;
+	padding-bottom: 3px;
+	margin-right:12px;
+	vertical-align: middle;
+	margin-left: 2.2em;
 }
 
-#info_duration
-{
-    color: #232c2d;
-    background: url(Spritesheet10x1X36.png);
-    background-position: 0 -72px;
-    background-repeat: no-repeat;
-    padding-left: 30px;
+#info_duration{
+	color: #232c2d;
+	background: url(SpriteSheet10x1_36.png);
+	background-position: 0 -72px;
+	background-repeat: no-repeat;
+}
+#info_location{
+	color: #232c2d;
+	background: url(SpriteSheet10x1_36.png);
+	background-position: 0 0px;
+	background-repeat: no-repeat;
 }
 
-#info_location_menu
-{
-    color: #232c2d;
-    background: url(Spritesheet10x1X36.png);
-    background-position: 0 0px;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-}
-#info_location
-{
-    color: #232c2d;
-    background: url(Spritesheet10x1X36.png);
-    background-position: 0 0px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    padding-left: 40px;
-    height:40px;
-    vertical-align:bottom !important;
+#info_description{
+	color: #232c2d;
+	background: url(SpriteSheet10x1_36.png);
+	background-position: 0 -504px;
+	background-repeat: no-repeat;
 }
 
-#info_description
-{
-    color: #232c2d;
-    background: url(Spritesheet10x1X36.png);
-    background-position: 0 -504px;
-    background-repeat: no-repeat;
+#info_price{
+	color: #232c2d;
+	background: url(SpriteSheet10x1_36.png);
+	background-position: 0 -216px;
+	background-repeat: no-repeat;
 }
 
-#info_price
-{
-    color: #232c2d;
-    background: url(Spritesheet10x1X36.png);
-    background-position: 0 -216px;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-}
 
-#info_menu
-{
-    color: #232c2d;
-    background: url(Spritesheet10x1X36.png);
-    background-position: 0 -507px;
-    background-repeat: no-repeat;
-    height:36px;
-    display:inline-block;
-}
-#info_call
-{
-    color: #232c2d;
-    background: url(Spritesheet10x1X36.png);
-    background-position: 0 -433px;
-    background-repeat: no-repeat;
-    height:36px;
-    display:inline-block;
-}
-
-h4
-{
-    font-size: 2.4em;
-    font-weight: 100;
-    line-height: 1.5em;
-    letter-spacing: 1px;
+h4 {
+	font-size: 2.4em;
+	font-weight: 100;
+	line-height: 1.5em;
+	letter-spacing: 1px;
 }
