@@ -25,7 +25,7 @@ $(document).on("ready", function () {
             app.router = new app.routers.AppRouter();
             Backbone.history.start();
             //FB.init({ appId: "520455088008607", nativeInterface: CDV.FB, useCachedDialogs: false });
-            FB.init({ appId: "184637508390380", nativeInterface: CDV.FB, useCachedDialogs: false });
+            FB.init({ appId: "614905611858200", nativeInterface: CDV.FB, useCachedDialogs: false });
         });
 
         FB.Event.subscribe('auth.statusChange', function (event) {

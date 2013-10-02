@@ -5,8 +5,8 @@
     });
 
     FB.init({
-        appId: '184637508390380', // App ID
-        channelUrl: '//localhost/cities.html', // Channel File
+        appId: '614905611858200', // App ID
+        channelUrl: 'cities.html', // Channel File
         status: true, // check login status
         cookie: true, // enable cookies to allow the server to access the session
         xfbml: true  // parse XFBML
@@ -23,6 +23,6 @@
     js = d.createElement('script');
     js.id = id;
     js.async = true;
-    js.src = "//connect.facebook.net/en_US/all.js";
+    js.src = "http://connect.facebook.net/en_US/all.js";
     ref.parentNode.insertBefore(js, ref);
 } (document));
